@@ -1,10 +1,10 @@
 import MenuLink from "../MenuLink";
-import "./Menu.css";
+import styles from "./Menu.module.css";
 
 const Menu = () => {
   return (
-    <header className="menu">
-      <nav className="navegacao">
+    <header>
+      <nav className={styles.navegacao}>
         <MenuLink to="/">Início</MenuLink>
         <MenuLink to="/sobremim">Sobre mim</MenuLink>
       </nav>

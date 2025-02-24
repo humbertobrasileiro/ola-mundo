@@ -1,4 +1,4 @@
-.menu .navegacao {
+.navegacao {
   height: 112px;
   display: flex;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 744px) {
-  .menu .navegacao {
+  .navegacao {
     height: 72px;
   }
 }
